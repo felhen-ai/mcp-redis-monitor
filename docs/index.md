@@ -36,8 +36,8 @@ sensitivity: public
 
 ## Planning and delivery
 
-- [Open Issues](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues) — roadmap and backlog
-- [Pull requests](https://github.com/antonio-mello-ai/mcp-redis-monitor/pulls) — delivery evidence
-- [Releases](https://github.com/antonio-mello-ai/mcp-redis-monitor/releases) — published versions
+- [Open Issues](https://github.com/felhen-ai/mcp-redis-monitor/issues) — roadmap and backlog
+- [Pull requests](https://github.com/felhen-ai/mcp-redis-monitor/pulls) — delivery evidence
+- [Releases](https://github.com/felhen-ai/mcp-redis-monitor/releases) — published versions
 
 This repository does not maintain a parallel roadmap, backlog or changelog.

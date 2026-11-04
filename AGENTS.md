@@ -11,7 +11,7 @@ globalRef: qmd://mcp-redis-monitor/AGENTS.md
 reviewCadenceDays: 90
 lastReviewedAt: 2026-09-28
 sourceRefs:
-  - github:antonio-mello-ai/mcp-redis-monitor
+  - github:felhen-ai/mcp-redis-monitor
 related:
   - README.md
   - docs/fluxos-negocio.md

@@ -52,9 +52,9 @@ the system of record, and the process does not persist observed values.
 Connection configuration enters through environment variables. The current
 client supports host, port, database and optional password. TLS and ACL username
 support are tracked in
-[Issue #4](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/4).
+[Issue #4](https://github.com/felhen-ai/mcp-redis-monitor/issues/4).
 Connection and read timeouts are tracked in
-[Issue #9](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/9).
+[Issue #9](https://github.com/felhen-ai/mcp-redis-monitor/issues/9).
 
 ## Read-only boundary
 
@@ -62,7 +62,7 @@ Current tools use Redis metadata and length/read operations such as `INFO`,
 `SCAN`, `TYPE`, collection-length commands and `LINDEX`. They do not delete,
 acknowledge, dequeue or mutate keys. Explicit MCP read-only/non-destructive
 annotations are tracked in
-[Issue #11](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/11).
+[Issue #11](https://github.com/felhen-ai/mcp-redis-monitor/issues/11).
 
 ## Known structural gaps
 
