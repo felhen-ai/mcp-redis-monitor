@@ -38,9 +38,9 @@ tool through the stdio server.
   Redis keyspace overview.
 
 Cache efficiency, eviction and fragmentation expansion is tracked in
-[Issue #1](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/1).
+[Issue #1](https://github.com/felhen-ai/mcp-redis-monitor/issues/1).
 Replication and persistence status are tracked in
-[Issue #3](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/3).
+[Issue #3](https://github.com/felhen-ai/mcp-redis-monitor/issues/3).
 
 ## Queue-depth inspection
 
@@ -50,7 +50,7 @@ and streams. The current default database is 3.
 
 The current scan is not bounded at the response level. Pagination, work limits
 and a safe key-name output policy are tracked in
-[Issue #8](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/8).
+[Issue #8](https://github.com/felhen-ai/mcp-redis-monitor/issues/8).
 
 ## Celery queue inspection
 
@@ -60,7 +60,7 @@ first list entry. It never removes a message.
 
 The documented Celery detection rule and oldest-message ordering need to be
 made explicit and consistent with the implementation; this is tracked in
-[Issue #7](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/7).
+[Issue #7](https://github.com/felhen-ai/mcp-redis-monitor/issues/7).
 
 ## Current boundaries
 
@@ -68,5 +68,5 @@ made explicit and consistent with the implementation; this is tracked in
 - Configuration supports host, port and an optional password.
 - Each tool call creates and closes its own asynchronous Redis client.
 - Tool responses are JSON encoded as text; structured MCP results are tracked
-  in [Issue #12](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/12).
+  in [Issue #12](https://github.com/felhen-ai/mcp-redis-monitor/issues/12).
 - The repository does not proxy or persist Redis data.

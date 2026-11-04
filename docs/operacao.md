@@ -48,7 +48,7 @@ local placeholders.
 
 The current client does not yet accept an ACL username or TLS configuration;
 these production-hardening requirements are tracked in
-[Issue #4](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/4).
+[Issue #4](https://github.com/felhen-ai/mcp-redis-monitor/issues/4).
 
 ## Run
 
@@ -76,7 +76,7 @@ requests targeting `main`.
 Publishing a GitHub Release triggers the PyPI workflow with trusted publishing.
 Before publishing, verify that the Git tag and `pyproject.toml` version agree.
 The broken `VERSION`-file expectation in the local pre-push hook is tracked in
-[Issue #10](https://github.com/antonio-mello-ai/mcp-redis-monitor/issues/10).
+[Issue #10](https://github.com/felhen-ai/mcp-redis-monitor/issues/10).
 
 ## Failure modes
 
